@@ -20,7 +20,7 @@ const Navbar = ({modeHandler, theme}) => {
     }
 
     return (
-        <div className='w-[100%] fixed bottom-0 left-0 z-999 bg-[#fdfbfe] md:py-0 md:px-[1rem] md:top-0 md:bottom-[initial]'>
+        <div className='w-[100%] fixed bottom-0 left-0 z-[1000] bg-[#fdfbfe] md:py-0 md:px-[1rem] md:top-0 md:bottom-[initial]'>
             <nav className='max-w-[968px] h-[3rem] flex justify-between items-center ml-[1.5rem] mr-[1.5rem] md:h-[4.5rem] md:gap-x-[1rem] md:mx-auto md:text-center md:justify-between'>
                 <div>
                     <HashLink to='# ' smooth>

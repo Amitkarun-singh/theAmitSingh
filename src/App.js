@@ -8,6 +8,7 @@ import ContactMe from './Component/ContactMe';
 import ProjectsData from './data';
 import Footer from './Component/Footer';
 import GoToTop from './Component/GoToTop';
+import Skills from './Component/Skills';
 
 function App() {
 
@@ -36,9 +37,10 @@ function App() {
     <div className='w-screen font-normal text-base dark:bg-black dark:text-white'>
       <Navbar theme={theme} modeHandler={modeHandler}/>
       <GoToTop/>
-      <div>
+      <div className='w-full'>
         <Home/>
         <About/>
+        <Skills/>
         <Projects ProjectsData={ProjectsData}/>
         <ContactMe/>
       </div>

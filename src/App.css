@@ -91,9 +91,9 @@ h1, h2, h3, h4 {
   font-weight: var(--font-semi-bold);
 }
 
-/* .section {
+.section {
   padding: 2rem 0 4rem;
-} */
+}
 
 .section__title {
   font-size: var(--h1-font-size);
