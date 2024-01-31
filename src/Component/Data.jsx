@@ -1,10 +1,11 @@
 import React from 'react'
 import { HashLink } from '@xzar90/react-router-hash-link'
 import { VscSend } from "react-icons/vsc";
+import './Home.css'
 
 const Data = () => {
     return (
-        <div className='home_data w-full'>
+        <div className='home_data w-full ml-10'>
             <h1 className='text-[2rem] mb-[1rem]'>Hi, I'm Amit Singh</h1>
 
             <h3 className='text-[1.125rem] font-normal mb-[1rem]'>I'm a Full Stack Web Developer</h3>

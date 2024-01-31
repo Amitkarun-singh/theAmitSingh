@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Social = () => {
     return (
-        <div className='w-full grid grid-cols-1 gap-[1rem]'>
+        <div className=' flex flex-col  items-center justify-around mt-0 lg:mt-[-40px] ml-2'>
 
             <NavLink to='https://github.com/Amitkarun-singh' target='_blank' className='text-[1.25rem] text-[#972ef9] hover:text-[#7221be]'>
                 <LuGithub />

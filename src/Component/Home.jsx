@@ -5,12 +5,14 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div id="#" className='w-screen md:pr-[2rem] pt-24 py-0'>
-            <div className='flex justify-center items-center mx-auto max-w-[968px] w-full '>
-                <div className='home_content max-w-[968px] grid gap-[1.5rem]'>
+        <div id="#" className='pr-[2rem] lg:pr-0 pt-24'>
+            <div className='flex justify-center items-center mx-auto max-w-[968px]  '>
+                
+                <div className=' flex gap-[1.5rem] pt-[5.5rem]'>
+                    
                     <Social/>
 
-                    <div className='home_img'></div>
+                    <div className='home_img hidden lg:block'></div>
 
                     <Data/>
                 </div>

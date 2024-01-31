@@ -5,9 +5,11 @@ import Home from './Component/Home';
 import About from './Component/About';
 import Projects from './Component/Projects';
 import ContactMe from './Component/ContactMe';
-import ProjectsData from './data';
+// import ProjectsData from './data';
 import Footer from './Component/Footer';
 import GoToTop from './Component/GoToTop';
+import Social from './Component/Social';
+import './Component/Home.css'
 
 function App() {
 
@@ -33,13 +35,14 @@ function App() {
     }
 
   return (
-    <div className='w-screen font-normal text-base dark:bg-black dark:text-white'>
+    <div className='font-normal text-base dark:bg-black dark:text-white'>
       <Navbar theme={theme} modeHandler={modeHandler}/>
       <GoToTop/>
       <div>
+      
         <Home/>
         <About/>
-        <Projects ProjectsData={ProjectsData}/>
+        {/* <Projects ProjectsData={ProjectsData}/> */}
         <ContactMe/>
       </div>
       <Footer/>
