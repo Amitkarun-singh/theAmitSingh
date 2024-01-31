@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 const ContactMe = () => {
     return (
-        <div id='ContactMe' className='pt-20 mb-16'>
+        <div id='ContactMe' className='pt-20'>
             <div className='max-w-5xl mx-auto mt-5 flex justify-center items-center flex-col px-[2.5rem]'>
                 <div className='flex w-full flex-col justify-center items-center'>
                     <h1 className='text-4xl font-semibold text-black dark:text-white'>Contact Me</h1>
