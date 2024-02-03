@@ -21,7 +21,7 @@ const ProjectsData = [
     TechStacks: ["React", "Tailwind CSS"],
     image: "/Video/myPortfolioWebsite.gif",
     description: "My personal portfolio website using React and Tailwind CSS, featuring a clean and minimal UI design.",
-    link : "https://github-profile-hunter.netlify.app/",
+    link : "https://the-amit-singh.vercel.app/",
   },
   {
     id: 4,
