@@ -18,7 +18,7 @@ const SkillsCard = (props) => {
 
     return (
         <div>
-            <div className='flex items-center mb-[2.5rem] gap-4 cursor-pointer'>
+            <div className='flex items-center mb-[2.5rem] md:gap-4 cursor-pointer'>
                 <img src={SkillData.image} alt="" className='w-[32.02px] h-[32px] mr-[.75rem] font-medium'/>
                 <div>
                     <h1 className='text-[1.125rem] dark:text-white'>{SkillData.name}</h1>

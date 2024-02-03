@@ -22,7 +22,7 @@ const Card = (props) => {
                         ))
                     }
                 </div>
-                <NavLink to={ProjectsData.link}>
+                <NavLink to={ProjectsData.link} target='_blank'>
                     <button className='flex justify-center items-center mt-4 bg-purple-600 text-white px-3 py-4 rounded-md font-medium w-[130px] gap-2'>
                         check out
                         <IoMdArrowRoundForward className=''/>

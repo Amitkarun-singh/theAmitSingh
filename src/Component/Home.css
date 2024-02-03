@@ -9,6 +9,7 @@
     width: 300px;
     height: 300px;
     animation: profile_animate 8s ease-in-out infinite 1s;
+    flex-shrink: 0;
 }
 
 @keyframes profile_animate {
@@ -41,7 +42,6 @@
 @media screen and (min-width: 640px) {
     .home_img {
         order: 1;
-        justify-self: center;
     }
 
     .home_img {

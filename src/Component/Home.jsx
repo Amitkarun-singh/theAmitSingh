@@ -11,7 +11,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div id="#" className='w-auto md:pt-[6rem] md:pb-[2rem] pb-[4rem] pt-[2rem] py-0'>
+        <div id="#" className='w-screen md:pt-[6rem] md:pb-[2rem] pb-[4rem] pt-[2rem] py-0'>
             <div className='Home_container md:gap-y-[5rem] max-w-[768px] md:mx-auto mx-[1.5rem] grid gap-[1.5rem]'>
                 <div className="Home_content md:pt-[5.5rem] md:gap-x-[2rem] sm:grid-cols-[max-content,1fr,1fr] grid grid-cols-[0.5fr,3fr] gap-[1.5rem] pt-[3.5rem] items-center">
                     <div className="home_social grid grid-cols-[max-content] gap-y-[1rem] lg:transform lg:-translate-x-[6rem]">

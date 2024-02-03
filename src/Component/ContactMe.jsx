@@ -31,7 +31,7 @@ const ContactMe = () => {
                         </NavLink>
                     </div>
                     <div className='relative  p-px overflow-hidden transition duration-300 transform border dark:border-[#1f1627] rounded shadow-md hover:scale-105 group hover:shadow-xl dark:shadow-purple-700/50'>
-                    <NavLink to='mailto:amitkarun4559@gmail.com'>
+                    <NavLink to='https://github.com/Amitkarun-singh'>
                             <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-purple-700 group-hover:scale-x-100"></div>
                             <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-purple-700 group-hover:scale-y-100"></div>
                             <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-purple-700 group-hover:scale-x-100"></div>
@@ -48,7 +48,7 @@ const ContactMe = () => {
                         </NavLink>
                     </div>
                     <div className='relative  p-px overflow-hidden transition duration-300 transform border dark:border-[#1f1627] rounded shadow-md hover:scale-105 group hover:shadow-xl dark:shadow-purple-700/50'>
-                    <NavLink to='mailto:amitkarun4559@gmail.com'>
+                    <NavLink to='https://www.linkedin.com/in/amitkumar-singh17/'>
                             <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-purple-700 group-hover:scale-x-100"></div>
                             <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-purple-700 group-hover:scale-y-100"></div>
                             <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-purple-700 group-hover:scale-x-100"></div>
