@@ -6,19 +6,21 @@ import About from './Component/About';
 import Projects from './Component/Projects';
 import ContactMe from './Component/ContactMe';
 import ProjectsData from './data';
+import SkillsData from './skillsData';
 import Footer from './Component/Footer';
 import GoToTop from './Component/GoToTop';
 import Skills from './Component/Skills';
+import Qualifications from './Component/Qualifications';
 
 function App() {
 
   const [theme, setTheme] = useState("light");
 
-    // useEffect(() => {
-    //     if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-    //         setTheme("dark");
-    //     }
-    // }, [])
+    useEffect(() => {
+        if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+            setTheme("dark");
+        }
+    }, [])
 
     useEffect(() => {
       if(theme === 'dark'){
@@ -34,13 +36,14 @@ function App() {
     }
 
   return (
-    <div className='w-screen font-normal text-base dark:bg-black dark:text-white'>
+    <div className='w-screen font-normal text-base dark:bg-[#1f1627] dark:text-white overflow-x-hidden'>
       <Navbar theme={theme} modeHandler={modeHandler}/>
       <GoToTop/>
       <div className='w-full'>
         <Home/>
         <About/>
-        <Skills/>
+        <Skills  SkillsData={SkillsData} />
+        <Qualifications/>
         <Projects ProjectsData={ProjectsData}/>
         <ContactMe/>
       </div>

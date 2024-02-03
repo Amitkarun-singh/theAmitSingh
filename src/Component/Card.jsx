@@ -7,18 +7,18 @@ const Card = (props) => {
     let ProjectsData = props.ProjectsData;
 
     return (
-        <div className='flex justify-between w-full items-center gap-32'>
-            <div className='flex justify-center items-center h-[210px] overflow-hidden object-cover'>
-                <img src={ProjectsData.image} alt="" className='w-[354px] h-[211px] border-r-[2px] rounded-md'/>
+        <div className='flex justify-center items-center flex-wrap sm:flex-nowrap gap-[1.5rem] lg:gap-[5rem] max-w-[768px] py-0'>
+            <div className='flex justify-center items-center overflow-hidden object-cover'>
+                <img src={ProjectsData.image} alt="" className='w-[265px] sm:w-[354px] h-[211px] rounded-md justify-center'/>
             </div>
-            <div className='w-[304px]'>
-                <h1 className='text-2xl mb-2 font-semibold'>{ProjectsData.name}</h1>
-                <p className='mb-3'>{ProjectsData.description}</p>
+            <div className='sm:w-[354px]'>
+                <h3 className='text-[1.125rem] mb-[0.5rem] text-black font-semibold dark:text-white'>{ProjectsData.name}</h3>
+                <p className='mb-[0.75rem] dark:text-[#bcbac4]'>{ProjectsData.description}</p>
                 <div className='flex items-center justify-center gap-3'>
                     {
                         ProjectsData.TechStacks.map(
                             (stack, index) => (
-                                <div key={index} className='border p-2 rounded-md px-3 cursor-pointer shadow-xl font-semibold'>{stack}</div>
+                                <div key={index} className='border p-2 rounded-md px-3 cursor-pointer shadow-xl text-black dark:text-white font-semibold'>{stack}</div>
                         ))
                     }
                 </div>
