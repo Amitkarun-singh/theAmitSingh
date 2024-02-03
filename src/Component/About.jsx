@@ -1,7 +1,7 @@
 import React from 'react'
 import { GrNotes } from "react-icons/gr";
 import myPhoto from "../AboutMe/Myphoto.jpg"
-import Resume from '../AboutMe/NewResume.pdf'
+import Resume from '../AboutMe/Resume.pdf'
 
 const About = () => {
     return (
