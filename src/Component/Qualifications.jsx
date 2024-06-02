@@ -4,7 +4,7 @@ import { LuCalendarDays } from "react-icons/lu";
 
 const Qualifications = () => {
     return (
-        <div id='Qualifications' className='qualification md:pt-[6rem] md:pb-[2rem] pb-[4rem] pt-[2rem] py-0'>
+        <div id='Qualifications' className='qualification md:pt-[6rem] md:pb-[2rem] pb-[4rem] pt-[2rem] py-0 overflow-x-hidden'>
             <h2 className="text-2xl text-center dark:text-white">Qualifications</h2>
             <span className="block text-sm mb-[3rem] md:mb-[4rem] text-center dark:text-[#bcbac4]">My Educational Qualification</span>
 

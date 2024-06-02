@@ -43,13 +43,13 @@ const Projects = (props) => {
                     </button>
                 </div>
             </div>
-            <div className='flex flex-row justify-center items-center gap-2 mt-6 lg:mt-10'>
+            <div className='flex flex-row justify-center items-center gap-2 mt-6 lg:mt-10 '>
                 {
                     ProjectsData.map(
                         (projects, id) => (
                             <div
                                 key={projects.id}
-                                className={`border-r-[50%] rounded-full w-[7.5px] h-[7.5px] cursor-pointer ${id === index ? "bg-purple-600" : "bg-slate-400 dark:bg-slate-600"}`}
+                                className={`border-r-[50%] rounded-full w-[7.5px] h-[7.5px] cursor-pointer transition duration-300 ease-in-out ${id === index ? "bg-purple-600" : "bg-slate-400 dark:bg-slate-600"}`}
                                 onClick={() => (setIndex(id))}></div>
                     ))
                 }

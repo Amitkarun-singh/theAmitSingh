@@ -1,4 +1,5 @@
 import React from 'react'
+import { ReactTyped } from "react-typed";
 import { FiTwitter } from "react-icons/fi";
 import { LuGithub } from "react-icons/lu";
 import { FiLinkedin } from "react-icons/fi";
@@ -11,7 +12,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div id="#" className='w-screen md:pt-[6rem] md:pb-[2rem] pb-[4rem] pt-[2rem] py-0'>
+        <div id="#" className='w-screen md:pt-[6rem] md:pb-[2rem] pb-[4rem] pt-[2rem] py-0 overflow-x-hidden'>
             <div className='Home_container md:gap-y-[5rem] max-w-[768px] md:mx-auto mx-[1.5rem] grid gap-[1.5rem]'>
                 <div className="Home_content md:pt-[5.5rem] md:gap-x-[2rem] sm:grid-cols-[max-content,1fr,1fr] grid grid-cols-[0.5fr,3fr] gap-[1.5rem] pt-[3.5rem] items-center">
                     <div className="home_social grid grid-cols-[max-content] gap-y-[1rem] lg:transform lg:-translate-x-[6rem]">
@@ -33,7 +34,15 @@ const Home = () => {
                     <div className="home_data sm:col-auto col-span-2">
                         <h1 className="home_title text-[2rem] mb-[.75rem] dark:text-white lg:text-4xl">Hi, I'm Amit Singh</h1>
 
-                        <h3 className="home_subtitle text-[1.125rem] text-[#242329] font-medium mb-[.75rem] dark:text-[#bcbac4]">I'm a Full Stack Web Developer</h3>
+                        <h3 className="home_subtitle text-[1.125rem] text-[#242329] font-medium mb-[.75rem] dark:text-[#bcbac4]">I'm a {""}
+                        <ReactTyped
+                            strings={["Full Stack Developer","Web Developer","UI-UX Designer","Backend Developer","Coder",]}
+                            typeSpeed={100}
+                            loop
+                            backSpeed={80}
+                            cursorChar='|'
+                            showCursor={true}
+                        /></h3>
 
                         <p className="home_description mb-[2rem] dark:text-[#bcbac4]">Building Application to solve real life problems</p>
 
