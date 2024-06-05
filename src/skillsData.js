@@ -71,7 +71,7 @@ const SkillsData = [
             },
             {
                 id:2,
-                techimage: "/Tech-Stack/icon _GitHub_.svg",
+                techimage: "/Tech-Stack/icon _github_.svg",
                 techstack:"GitHub",
             },
             {
